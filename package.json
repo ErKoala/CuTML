@@ -13,9 +13,7 @@
   },
 
   "dependencies": {
-    "cheerio": "*",
-    "mocha": "*",
-    "expect.js": "*"
+    "cheerio": "*"
   },
 
   "repository": "git://github.com/ErKoala/CuTML.git",
