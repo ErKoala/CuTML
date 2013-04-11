@@ -3,10 +3,6 @@
   "version": "0.0.1",
   "description": "HTML string shortener",
   "main": "index.js",
-  
-  "directories": {
-    "test": "test"
-  },
 
   "scripts": {
     "test": "mocha -R list test/test.js"
@@ -16,8 +12,11 @@
     "cheerio": "*"
   },
 
-  "repository": "git://github.com/ErKoala/CuTML.git",
+  "devDependencies": {
+    "expect.js": "*"
+  },
+  
+  "repository": "",
   "author": "Koala",
-  "license": "MIT",
-  "readmeFilename": "README.md"
+  "license": "MIT"
 }
