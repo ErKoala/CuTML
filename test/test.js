@@ -20,4 +20,11 @@ describe('#CuTML', function() {
     var fin = CuTML(str, {maxSize: 10, reminder: '...', saveTags: ['a']});
     expect(fin).to.equal(str);
   });
+
+  it('should catch an error', function() {
+    var str = '<span>Ehi, I love ya!</div>';
+    var err = new Error('HTML error.');
+    var fin = function() { CuTML(str, {maxSize: 50, reminder: '...'}) };
+    expect(fin).to.throwError();
+  });
 });
