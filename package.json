@@ -1,0 +1,25 @@
+{
+  "name": "CuTML",
+  "version": "0.0.1",
+  "description": "HTML string shortener",
+  "main": "index.js",
+  
+  "directories": {
+    "test": "test"
+  },
+
+  "scripts": {
+    "test": "mocha -R list test/test.js"
+  },
+
+  "dependencies": {
+    "cheerio": "*",
+    "mocha": "*",
+    "expect.js": "*"
+  },
+
+  "repository": "",
+  "author": "Koala",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
